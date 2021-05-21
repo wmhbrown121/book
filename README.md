@@ -1,2 +1,0 @@
-# book
-Book CRUD API
