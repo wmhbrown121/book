@@ -1,7 +1,7 @@
 # Anything that goes here is made globally for all profiles.
 spring:
   application:
-    name: book
+    name: book-crud
 
 ---
 spring:

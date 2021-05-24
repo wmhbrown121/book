@@ -1,14 +1,14 @@
-dev/brown/Book/models/Book.java
- dev.brown.Book.models.Book
-dev/brown/Book/controller/BookController.java
- dev.brown.Book.controller.BookController
-dev/brown/Book/models/BookDTO.java
- dev.brown.Book.models.BookDTO
-dev/brown/Book/BookApplication.java
- dev.brown.Book.BookApplication
-dev/brown/Book/services/BookServiceImpl.java
- dev.brown.Book.services.BookServiceImpl
-dev/brown/Book/services/BookService.java
- dev.brown.Book.services.BookService
-dev/brown/Book/repos/BookRepo.java
- dev.brown.Book.repos.BookRepo
+dev/brown/bookcrud/models/Book.java
+ dev.brown.bookcrud.models.Book
+dev/brown/bookcrud/models/BookDTO.java
+ dev.brown.bookcrud.models.BookDTO
+dev/brown/bookcrud/services/BookService.java
+ dev.brown.bookcrud.services.BookService
+dev/brown/bookcrud/services/BookServiceImpl.java
+ dev.brown.bookcrud.services.BookServiceImpl
+dev/brown/bookcrud/controllers/BookController.java
+ dev.brown.bookcrud.controllers.BookController
+dev/brown/bookcrud/repos/BookRepo.java
+ dev.brown.bookcrud.repos.BookRepo
+dev/brown/bookcrud/BookApplication.java
+ dev.brown.bookcrud.BookApplication

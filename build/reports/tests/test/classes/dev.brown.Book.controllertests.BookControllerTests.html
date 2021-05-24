@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.592s</div>
+<div class="counter">0.463s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,27 +79,27 @@
 </thead>
 <tr>
 <td class="success">get_all_books()</td>
-<td class="success">0.041s</td>
+<td class="success">0.031s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">get_book_by_id()</td>
-<td class="success">0.035s</td>
+<td class="success">0.027s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">get_books_by_author()</td>
-<td class="success">0.018s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">get_books_by_condition()</td>
-<td class="success">0.470s</td>
+<td class="success">0.366s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">get_books_by_title()</td>
-<td class="success">0.028s</td>
+<td class="success">0.026s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -107,12 +107,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2021-05-23 20:42:21.004  INFO 5332 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [dev.brown.Book.controllertests.BookControllerTests], using SpringBootContextLoader
-2021-05-23 20:42:21.006  INFO 5332 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [dev.brown.Book.controllertests.BookControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-05-23 20:42:21.007  INFO 5332 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dev.brown.Book.controllertests.BookControllerTests]: BookControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-05-23 20:42:21.039  INFO 5332 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dev.brown.Book.BookApplication for test class dev.brown.Book.controllertests.BookControllerTests
-2021-05-23 20:42:21.047  INFO 5332 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2021-05-23 20:42:21.051  INFO 5332 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1bbbeb7f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@18fac8d3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7affe9c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3b5da4bd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7f7950ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@310ba3d6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@343fc5e1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6291e797, org.springframework.test.context.event.EventPublishingTestExecutionListener@575897ff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3b219bd1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@717b4199, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1c3bbd7e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f4f2669, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3887cb42, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@135b3242]
+<pre>2021-05-23 21:11:43.467  INFO 22212 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [dev.brown.Book.controllertests.BookControllerTests], using SpringBootContextLoader
+2021-05-23 21:11:43.469  INFO 22212 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [dev.brown.Book.controllertests.BookControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-05-23 21:11:43.470  INFO 22212 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [dev.brown.Book.controllertests.BookControllerTests]: BookControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-05-23 21:11:43.494  INFO 22212 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration dev.brown.Book.BookApplication for test class dev.brown.Book.controllertests.BookControllerTests
+2021-05-23 21:11:43.498  INFO 22212 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-05-23 21:11:43.499  INFO 22212 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@310ba3d6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@343fc5e1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6291e797, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@575897ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b219bd1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@717b4199, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c3bbd7e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@f4f2669, org.springframework.test.context.event.EventPublishingTestExecutionListener@3887cb42, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@135b3242, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@52cabd1a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@24c0b544, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@221ba745, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@68985866, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f3d0a02]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -122,26 +122,26 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.4.5)
 
-2021-05-23 20:42:21.145  INFO 5332 --- [    Test worker] d.b.B.c.BookControllerTests              : Starting BookControllerTests using Java 11.0.9.1 on DESKTOP-422FLEC with PID 5332 (started by patty in C:\Users\patty\Desktop\LibraryManagementSystem\book-crud)
-2021-05-23 20:42:21.148  INFO 5332 --- [    Test worker] d.b.B.c.BookControllerTests              : No active profile set, falling back to default profiles: default
-2021-05-23 20:42:21.157  WARN 5332 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 33:13]
-2021-05-23 20:42:21.157  WARN 5332 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 28:13]
-2021-05-23 20:42:21.157  WARN 5332 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 22:13]
-2021-05-23 20:42:21.510  INFO 5332 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-05-23 20:42:21.523  INFO 5332 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
-2021-05-23 20:42:21.746  INFO 5332 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2021-05-23 20:42:21.748  INFO 5332 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2021-05-23 20:42:21.838  INFO 5332 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-05-23 20:42:21.854  INFO 5332 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-05-23 20:42:21.901  INFO 5332 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-05-23 20:42:21.902  INFO 5332 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-05-23 20:42:22.206  WARN 5332 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-05-23 20:42:22.363  INFO 5332 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-23 20:42:22.388  INFO 5332 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
-2021-05-23 20:42:22.761  INFO 5332 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-05-23 20:42:22.761  INFO 5332 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-05-23 20:42:22.764  INFO 5332 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
-2021-05-23 20:42:22.779  INFO 5332 --- [    Test worker] d.b.B.c.BookControllerTests              : Started BookControllerTests in 1.723 seconds (JVM running for 11.364)
+2021-05-23 21:11:43.567  INFO 22212 --- [    Test worker] d.b.B.c.BookControllerTests              : Starting BookControllerTests using Java 11.0.9.1 on DESKTOP-422FLEC with PID 22212 (started by patty in C:\Users\patty\Desktop\LibraryManagementSystem\book-crud)
+2021-05-23 21:11:43.569  INFO 22212 --- [    Test worker] d.b.B.c.BookControllerTests              : No active profile set, falling back to default profiles: default
+2021-05-23 21:11:43.575  WARN 22212 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 33:13]
+2021-05-23 21:11:43.576  WARN 22212 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 28:13]
+2021-05-23 21:11:43.576  WARN 22212 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yaml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yaml] - 22:13]
+2021-05-23 21:11:43.827  INFO 22212 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-23 21:11:43.834  INFO 22212 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-05-23 21:11:44.052  INFO 22212 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-05-23 21:11:44.054  INFO 22212 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-05-23 21:11:44.132  INFO 22212 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-23 21:11:44.144  INFO 22212 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-23 21:11:44.182  INFO 22212 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-23 21:11:44.183  INFO 22212 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-23 21:11:44.405  WARN 22212 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-23 21:11:44.524  INFO 22212 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 21:11:44.545  INFO 22212 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-05-23 21:11:44.797  INFO 22212 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-05-23 21:11:44.797  INFO 22212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-05-23 21:11:44.799  INFO 22212 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-05-23 21:11:44.808  INFO 22212 --- [    Test worker] d.b.B.c.BookControllerTests              : Started BookControllerTests in 1.304 seconds (JVM running for 8.796)
 [{&quot;bookId&quot;:1,&quot;title&quot;:&quot;Harry Potter and the Sorcerers Stone&quot;,&quot;author&quot;:&quot;J. K. Rowling&quot;,&quot;condition&quot;:2},{&quot;bookId&quot;:3,&quot;title&quot;:&quot;Where the Red Fern Grows&quot;,&quot;author&quot;:&quot;Wilson Rawls&quot;,&quot;condition&quot;:2},{&quot;bookId&quot;:4,&quot;title&quot;:&quot;Harry Potter and the Goblet of Fire&quot;,&quot;author&quot;:&quot;J. K. Rowling&quot;,&quot;condition&quot;:2},{&quot;bookId&quot;:6,&quot;title&quot;:&quot;To Kill A Mockingbird&quot;,&quot;author&quot;:&quot;Harper Lee&quot;,&quot;condition&quot;:2}]
 
 MockHttpServletRequest:
@@ -154,7 +154,7 @@ MockHttpServletRequest:
 
 Handler:
              Type = dev.brown.Book.controller.BookController
-           Method = dev.brown.Book.controller.BookController#getAllBooks(String, String, Integer)
+           Method = dev.brown.Book.controller.BookController#getBooks(String, String, Integer)
 
 Async:
     Async started = false
@@ -195,7 +195,7 @@ MockHttpServletResponse:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 23, 2021, 8:42:24 PM</p>
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at May 23, 2021, 9:11:45 PM</p>
 </div>
 </div>
 </body>

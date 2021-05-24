@@ -1,7 +1,7 @@
 package dev.brown.Book.repotests;
 
-import dev.brown.Book.models.Book;
-import dev.brown.Book.repos.BookRepo;
+import dev.brown.bookcrud.models.Book;
+import dev.brown.bookcrud.repos.BookRepo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

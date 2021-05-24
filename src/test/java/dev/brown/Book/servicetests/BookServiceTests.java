@@ -1,12 +1,11 @@
 package dev.brown.Book.servicetests;
 
-import dev.brown.Book.models.Book;
-import dev.brown.Book.services.BookService;
+import dev.brown.bookcrud.models.Book;
+import dev.brown.bookcrud.services.BookService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.util.Assert;
 
 import java.util.List;
 
